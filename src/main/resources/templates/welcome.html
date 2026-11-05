@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Photography Site</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+    <h1>Welcome to My Photography Site!</h1>
+
+    <img th:src="@{/images/camera.jpg}"
+         alt="Camera"
+         onclick="showMessage()">
+
+    <script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
